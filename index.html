@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer type="module"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Pomodoro</title>
+  </head>
+  <body>
+    <main>
+      <h1>Pomodoro</h1>
+      <div class="time">
+        <span class="minute">00</span>
+        <span>:</span>
+        <span class="segundos">00</span>
+      </div>
+      <div class="controlers">
+        <button class="play"><ion-icon name="play-outline"></ion-icon></button>
+        <button class="pause hide">
+          <ion-icon name="pause-outline"></ion-icon>
+        </button>
+        <button class="stop hide">
+          <ion-icon name="stop-outline"></ion-icon>
+        </button>
+        <button class="set">
+          <ion-icon name="settings-outline"></ion-icon>
+        </button>
+      </div>
+      <span class="credito">Desenvolvido por <b>Wesley Cunha</b></span>
+    </main>
+    <footer>
+      <button class="soundOn">
+        <ion-icon name="mic-outline"></ion-icon>
+      </button>
+      <button class="soundOff hide">
+        <ion-icon name="mic-off-outline"></ion-icon>
+      </button>
+    </footer>
+  </body>
+</html>
